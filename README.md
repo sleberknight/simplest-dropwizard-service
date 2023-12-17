@@ -54,3 +54,11 @@ java.lang.IllegalArgumentException: HV000116: The object to be validated must no
 	at io.dropwizard.core.Application.run(Application.java:94)
 	at com.acme.simple.App.main(App.java:14)
 ```
+
+### Making it work
+
+You can make it work using either `config-empty.yml` or `config-only-yaml-marker.yml`
+by uncommenting the `greeting` in those files.
+
+Then, the service will start up and log a greeting that starts with the value from
+the configuration file.

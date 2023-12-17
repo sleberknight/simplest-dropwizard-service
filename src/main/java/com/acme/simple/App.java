@@ -16,6 +16,6 @@ public class App extends Application<AppConfiguration> {
 
     @Override
     public void run(AppConfiguration configuration, Environment environment) {
-        LOG.info("Hi, I don't do anything!");
+        LOG.info("{}, I don't do anything!", configuration.getGreeting());
     }
 }
