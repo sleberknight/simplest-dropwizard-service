@@ -6,6 +6,8 @@ which defines a minimal logging configuration.
 
 However, if you try to start with either `config-empty.yml` or
 `config-only-yaml-marker.yml` the service _will not start_.
+The reason is that they do not define _any_ configuration at
+all.
 
 ### Using `config.yml`
 
