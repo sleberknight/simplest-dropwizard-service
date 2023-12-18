@@ -1,5 +1,9 @@
 ---
 
+# This works because there is something in the configuration.
+# You could also add just a 'greeting' and that would work too,
+# or a server configuration, etc.
+
 logging:
   level: INFO
   loggers:
