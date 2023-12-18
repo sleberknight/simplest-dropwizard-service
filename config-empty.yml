@@ -1,2 +1,3 @@
-# The application will only start if the following is uncommented
+# The application will start if the following is uncommented, or you add
+# something else like a server or logging configuration
 #greeting: Hallo
