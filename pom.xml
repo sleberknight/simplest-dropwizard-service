@@ -13,6 +13,10 @@
     </description>
 
     <properties>
+        <!-- dependency versions -->
+        <dropwizard.version>4.0.5</dropwizard.version>
+
+        <!-- plugin versions -->
         <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
         <maven-compiler-plugin.java.release>17</maven-compiler-plugin.java.release>
         <maven-compiler-plugin.encoding>UTF-8</maven-compiler-plugin.encoding>
@@ -23,7 +27,7 @@
         <dependency>
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
-            <version>4.0.5</version>
+            <version>${dropwizard.version}</version>
         </dependency>
 
     </dependencies>
