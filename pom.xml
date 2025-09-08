@@ -14,7 +14,7 @@
 
     <properties>
         <!-- dependency versions -->
-        <dropwizard.version>4.0.15</dropwizard.version>
+        <dropwizard.version>4.0.16</dropwizard.version>
 
         <!-- plugin versions -->
         <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
