@@ -14,10 +14,10 @@
 
     <properties>
         <!-- dependency versions -->
-        <dropwizard.version>5.0.0</dropwizard.version>
+        <dropwizard.version>5.0.1</dropwizard.version>
 
         <!-- plugin versions -->
-        <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
         <maven-compiler-plugin.java.release>17</maven-compiler-plugin.java.release>
         <maven-compiler-plugin.encoding>UTF-8</maven-compiler-plugin.encoding>
     </properties>
